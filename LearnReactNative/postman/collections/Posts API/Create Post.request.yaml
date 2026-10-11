@@ -1,0 +1,15 @@
+$kind: http-request
+method: POST
+url: '{{base_url}}/api/posts'
+order: 3000
+body:
+  type: formdata
+  content:
+    - key: title
+      type: text
+      value: 'My New Post'
+      description: Title of the post
+    - key: image
+      type: file
+      src: ''
+      description: Image file for the post

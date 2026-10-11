@@ -1,0 +1,9 @@
+$kind: collection
+name: Posts API
+description: |-
+  CRUD API collection for the React Native Posts app.
+  Covers listing, creating, viewing, updating, and deleting posts.
+variables:
+  - key: base_url
+    value: 'http://192.168.1.2:3000'
+    description: Backend API base URL (from BACKEND_API_URL in .env)
